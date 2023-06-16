@@ -447,7 +447,7 @@
               <input
                 class="modal-input"
                 type="text"
-                name="input-name"
+                name="user-name"
                 id="user-name"
               />
               <svg class="svg-input-icon" width="18" height="24">
@@ -456,13 +456,13 @@
             </div>
           </div>
           <div class="modal-filed">
-            <label for="input-phone" class="input-text">Phone</label>
+            <label for="user-phone" class="input-text">Phone</label>
             <div class="icon-absolut">
               <input
                 class="modal-input"
                 type="tel"
-                name="input-phone"
-                id="input-phone"
+                name="user-phone"
+                id="user-phone"
               />
               <svg class="svg-input-icon" width="18" height="24">
                 <use href="./images/symbol-defs.svg#icon-phone"></use>
@@ -470,7 +470,7 @@
             </div>
           </div>
           <div class="modal-filed">
-            <label for="user- " class="input-text">Email</label>
+            <label for="user-email" class="input-text">Email</label>
             <div class="icon-absolut">
               <input
                 class="modal-input"
@@ -483,25 +483,28 @@
               </svg>
             </div>
           </div>
-          <label for="user-comment" class="input-text">Comment</label>
-          <textarea
-            id="user-comment"
-            class="more-text"
-            name="user-comment"
-            placeholder="Text input"
-          ></textarea>
-          <input
-            type="checkbox"
-            id="user-privacy"
-            name="user-privacy"
-            class="modal-checkbox"
-          />
-          <label for="user-privacy" class="modal-check"
-            >I accept the terms and conditions of the
-            <a href="" class="modal-check privacy-polisi"
-              >Privacy Policy</a
-            ></label
-          >
+
+          <div class="modal-com-agree">
+            <label for="user-comment" class="input-text">Comment</label>
+            <textarea
+              id="user-comment"
+              class="more-text"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-com-agree">
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              class="modal-checkbox"
+            />
+            <label for="user-privacy" class="modal-check"
+              >I accept the terms and conditions of the
+              <a href="" class="modal-check privacy-polisi">Privacy Policy</a>
+            </label>
+          </div>
         </form>
       </div>
     </div>
