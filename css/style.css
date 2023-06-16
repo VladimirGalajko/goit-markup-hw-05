@@ -718,6 +718,10 @@ p.madal-title {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.more-text:focus-within {
+  border: 1px solid var(--another-color);
 }
 .more-text::placeholder {
   font-size: 12px;
@@ -736,4 +740,21 @@ p.madal-title {
   text-decoration-line: underline;
   line-height: 1.33;
   color: var(--another-color);
+}
+.madal-sent-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  min-width: 169px;
+  height: 56px;
+  background: var(--another-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
